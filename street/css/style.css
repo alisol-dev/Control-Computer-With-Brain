@@ -1,0 +1,29 @@
+body {
+	margin: 0;
+	background-color: #798010;
+}
+
+.container {
+	background-image: url('../assets/bg.png');
+	background-repeat: repeat-x;
+	height: 500px;
+}
+
+.container .pointer{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: #f77;
+    border-radius: 100%;
+    transition: all 2s;
+    text-align: center;
+    vertical-align: middle;
+    color: #000;
+    position: relative;
+    margin-top: 21rem;
+}
+
+.container .pointer .pointerText {
+	font-size: 2.5rem;
+	padding-top: 1rem;
+}
